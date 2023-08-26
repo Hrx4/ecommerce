@@ -8,7 +8,7 @@ import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 const TopSellingWeek = () => {
 
 
-    const [hover, setHover] = useState("none")
+    const [hover, setHover] = useState("flex")
     
 
 
@@ -50,8 +50,8 @@ const TopSellingWeek = () => {
             {
                 CardData.map((item)=>(
                         <div style={{width:"90%" , height:"100%"}}>
-                            <div  style={{  padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' onMouseEnter={()=>{setHover("flex")}} onMouseLeave={()=>{setHover("none")}}>
-                                    <img style={{height:"60%" , width:"100%" , objectFit:"cover"}} src={item.img1} alt="" />
+                            <div  style={{ height:430,  padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' >
+                                    <img className='tsw__img' style={{height:"60%" , width:"100%" , objectFit:"cover"}} src={item.img1} alt="" />
                                     <div>
                                         <div>
                                             <StarIcon style={{color:'#FFD314'}} fontSize=''/>
@@ -71,14 +71,14 @@ const TopSellingWeek = () => {
                                                 $22.23
                                             </div>
                                         </div>
-                                        <button style={{height:50 , width:"100%", border:"none", borderRadius:5 , backgroundColor:"orange", display:`${hover}` , justifyContent:"center" , alignItems:"center"}} >
+                                        <button className='card__btn' style={{ cursor:"pointer",height:50 , width:"100%", border:"none", borderRadius:5 , backgroundColor:"orange", justifyContent:"center" , alignItems:"center"}} >
                                         <ShoppingCartCheckoutIcon fontSize='' />
                                             Add To Cart
                                         </button>
                                     </div>
                             </div>
-                            <div style={{  padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' onMouseEnter={()=>{setHover("flex")}} onMouseLeave={()=>{setHover("none")}}>
-                                    <img style={{height:"60%" , width:"100%" , objectFit:"cover"}} src={item.img2} alt="" />
+                            <div style={{ height:430, padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' >
+                                    <img className='tsw__img' style={{height:"60%" , width:"100%" , objectFit:"cover"}} src={item.img2} alt="" />
                                     <div>
                                         <div>
                                             <StarIcon style={{color:'#FFD314'}} fontSize=''/>
@@ -98,7 +98,7 @@ const TopSellingWeek = () => {
                                                 $22.23
                                             </div>
                                         </div>
-                                        <button style={{height:50 , width:"100%", border:"none", borderRadius:5 , backgroundColor:"orange", display:`${hover}` , justifyContent:"center" , alignItems:"center"}} >
+                                        <button className='card__btn'  style={{cursor:"pointer",height:50 , width:"100%", border:"none", borderRadius:5 , backgroundColor:"orange" , justifyContent:"center" , alignItems:"center"}} >
                                         <ShoppingCartCheckoutIcon fontSize='' />
                                             Add To Cart
                                         </button>

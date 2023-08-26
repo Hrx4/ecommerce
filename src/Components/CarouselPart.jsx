@@ -21,7 +21,7 @@ function Item(props)
             <div style={{color:"white"}}>
             It's hard to resist a freshly blended fresh fruit smoothie.
             </div>
-            <button style={{padding:"10px" , fontWeight:"bold" , marginTop:"10px" , border:"none" , borderRadius:"5px" }}>
+            <button className='car__btn' style={{padding:"10px" , fontWeight:"bold" , marginTop:"10px" , border:"none" , borderRadius:"5px" }}>
                 <ArrowForwardIcon fontSize='20'/>
                 Shop Now
             </button>

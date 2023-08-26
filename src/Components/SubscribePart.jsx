@@ -76,7 +76,7 @@ const SubscribePart = () => {
                     Only for your first order! You will never miss <br />exclusive savings for subscribers.
                     </div>
                     <input type="text" style={{height:30 , width:200}} placeholder='Email Address'/>
-                    <button style={{padding:"10px",color:"white" , backgroundColor:"orange" , fontWeight:"bold" , width: 150 , marginTop:"10px" , border:"none" , borderRadius:"5px" }}>
+                    <button style={{padding:"10px",color:"white" , backgroundColor:"orange" , fontWeight:"bold" , width: 150 , marginTop:"10px" , border:"none" , borderRadius:"5px" , cursor:"pointer"}}>
                         <ArrowForwardIcon fontSize='20'/>
                         Subscribe Now
                     </button>

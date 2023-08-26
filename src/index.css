@@ -180,6 +180,35 @@ code {
 .footer__mid{
   display: flex;
 }
+.car__btn:hover{
+  background-color: #E57C41;
+  cursor: pointer;
+  color: #fff;
+}
+.card__btn{
+  display: none;
+  transition: 2s;
+}
+.tsw__img{
+  transition: 1s;
+}
+
+.card__item:hover  .card__btn{
+  display: flex;
+}
+
+.card__item:hover .tsw__img{
+  transform: rotateY(360deg);
+}
+
+.bike__img{
+  transition: 1s;
+  height: 88%;
+}
+
+.bike__img:hover{
+  transform: rotateY(360deg);
+}
 
 @media screen and (max-width: 768px) {
   .carousel__margin{

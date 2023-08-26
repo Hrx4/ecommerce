@@ -35,8 +35,7 @@ const NavBar1 = () => {
         Vender
         </a></li>
         <li><a href="#solar-dealership">
-        Pages
-                            <ExpandMoreIcon/>
+        About Us
         </a></li>
         <li><a href="#contact-us">Blog
         </a></li>
