@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import CircleIcon from '@mui/icons-material/Circle';
 import StarIcon from '@mui/icons-material/Star';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
@@ -8,7 +8,6 @@ import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
 const TopSellingWeek = () => {
 
 
-    const [hover, setHover] = useState("flex")
     
 
 

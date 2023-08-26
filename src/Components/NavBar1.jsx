@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import DialpadIcon from '@mui/icons-material/Dialpad';
+import { Link } from 'react-router-dom';
 
 const NavBar1 = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -24,9 +25,9 @@ const NavBar1 = () => {
 
 
       <ul className={`nav-links ${isNavOpen ? 'active' : ''}`}>
-        <li><a href="#home">Home
-                        <ExpandMoreIcon />
-        </a></li>
+        <li><Link to={"/"}>
+        Home
+        </Link></li>
         <li><a href="#about-us">
         Shop
                             <ExpandMoreIcon/>
@@ -34,9 +35,9 @@ const NavBar1 = () => {
         <li><a href="#gallery">
         Vender
         </a></li>
-        <li><a href="#solar-dealership">
+        <li><Link to={"/about"}>
         About Us
-        </a></li>
+        </Link></li>
         <li><a href="#contact-us">Blog
         </a></li>
         <li><a href="#contact-us">Content
