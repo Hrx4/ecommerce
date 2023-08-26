@@ -4,7 +4,7 @@ const ItemList = () => {
   return (
 
     <>
-      <div className='item__list' style={{ justifyContent:"space-evenly"}}>
+      <div className='item__list' style={{ }}>
         <a href="#new"  className='list__anchor'>
           <img src="https://cdn.shopify.com/s/files/1/0489/1171/2423/files/leo-matico-home7-cate1.png?v=1659079940" alt="" />
           <div>

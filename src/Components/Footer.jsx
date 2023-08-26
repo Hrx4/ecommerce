@@ -23,7 +23,7 @@ const Footer = () => {
                     +123456789
                 </div>
             </div>    
-            <div style={{flex:1, alignItems:"center" , display:"flex" , flexDirection:"column"}}>
+            <div className='footer__link1' style={{flex:1, paddingLeft:40 , display:"flex" , flexDirection:"column"}}>
                 <div style={{fontWeight:"bold"}}>
                     How to buy
                 </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                     New user guide
                 </div>
             </div>   
-            <div style={{flex:1, alignItems:"center" , display:"flex" , flexDirection:"column"}}>
+            <div className='footer__link1' style={{flex:1, paddingLeft:40 , display:"flex" , flexDirection:"column"}}>
             <div style={{fontWeight:"bold"}}>
                     How to buy
                 </div>
@@ -57,7 +57,7 @@ const Footer = () => {
                     New user guide
                 </div>
             </div>   
-            <div style={{flex:1 ,  alignItems:"center" , display:"flex" , flexDirection:"column"}}>
+            <div className='footer__link1' style={{flex:1 ,  paddingLeft:40 , display:"flex" , flexDirection:"column"}}>
             <div style={{fontWeight:"bold"}}>
                     How to buy
                 </div>

@@ -180,8 +180,6 @@ code {
   position: relative;
    overflow-clip-margin: content-box;
    transition: 0.7s all ease-in-out ;
-   
-
 }
 .left__img:hover{
    transform: scale(1.35);
@@ -260,8 +258,14 @@ code {
   display: flex;
 }
 .item__list{
-  width: 100% ; 
+  scrollbar-width: none;
+
+  margin: 0px;
   display: flex;
+  gap: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
   
   /* overflow-x: scroll; */
 }
@@ -292,7 +296,7 @@ code {
   width: 22%;
 }
 .card__item{
-  height: 400;
+  height: 430px;
 }
 .subs__container{
   margin-top: 10px;
@@ -340,8 +344,37 @@ code {
 .bike__img:hover{
   transform: rotateY(360deg);
 }
+.dod__container{
+  height: 430px;
+}
+
+.footer__link1{
+  /* align-items: center; */
+}
+.card__item1{
+  height: 180px;
+}
+
+.dod__img{
+  width: 60%;
+}
 
 @media screen and (max-width: 768px) {
+  .dod__content{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+  .dod__img{
+    width: 100%;
+  }
+  .left__img{
+    width: 100%;
+  }
+  .dod__container{
+    height: auto;
+    flex-direction: column;
+  }
   .carousel__margin{
     margin-left: auto;
   }
@@ -370,8 +403,9 @@ code {
     display: block;
   }
   
+  
   .card__item{
-    height: 500;
+    height: 500px;
   }
   .tsw__list{
     flex-direction: column;
@@ -382,7 +416,8 @@ code {
     margin-top: 10px;
   }
   .card__item1{
-    width: 68%;
+    height: 20%;
+    width: 90%;
     margin: auto;
     margin-top: 10px;
   }
@@ -399,7 +434,7 @@ code {
   .left__part{
     margin-left:0px ;
      margin-right:0px ;
-     margin-top: 40px;
+     margin-top: 420px;
  }
 
   .bike__img{
@@ -426,9 +461,20 @@ code {
     width: 100%;
   }
   .item__list{
-    width: 100%;
-    display: block;
+    
+    width: 400px ; 
+  margin-left: 30px;
+    margin: 20;
+    overflow-x: scroll;
+    width: 90%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* display: block; */
   }
+  .item__list::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
   .dial{
     display:none;
   }

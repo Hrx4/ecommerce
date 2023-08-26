@@ -48,9 +48,9 @@ const TopSellingWeek = () => {
 
             {
                 CardData.map((item)=>(
-                        <div style={{width:"90%" , height:"100%"}}>
-                            <div  style={{ height:430,  padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' >
-                                    <img className='tsw__img' style={{height:"60%" , width:"100%" , objectFit:"cover"}} src={item.img1} alt="" />
+                        <div style={{width:"90%" , height:"auto"}}>
+                            <div  style={{   padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' >
+                                    <img className='tsw__img' style={{height:"80%" , width:"100%" , objectFit:"cover"}} src={item.img1} alt="" />
                                     <div>
                                         <div>
                                             <StarIcon style={{color:'#FFD314'}} fontSize=''/>
@@ -76,8 +76,8 @@ const TopSellingWeek = () => {
                                         </button>
                                     </div>
                             </div>
-                            <div style={{ height:430, padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' >
-                                    <img className='tsw__img' style={{height:"60%" , width:"100%" , objectFit:"cover"}} src={item.img2} alt="" />
+                            <div style={{  padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' >
+                                    <img className='tsw__img' style={{height:"80%" , width:"100%" , objectFit:"cover"}} src={item.img2} alt="" />
                                     <div>
                                         <div>
                                             <StarIcon style={{color:'#FFD314'}} fontSize=''/>

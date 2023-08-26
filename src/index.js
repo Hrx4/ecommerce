@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar1 from './Components/NavBar1';
 import Footer from './Components/Footer';
 import { About } from './about/About';
+import SubscribePart from './Components/SubscribePart';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
           <Route exact path='/' element={<App/>}/>
           <Route exact path='/about' element={<About/>} />
         </Routes>
+        <SubscribePart/>
       <Footer/>
     </BrowserRouter>
   </React.StrictMode>

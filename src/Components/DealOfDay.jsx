@@ -16,15 +16,15 @@ const DealOfDay = () => {
                 <div className='dod__left' style={{ height:430  }}>
                 <CircleIcon style={{color:"red" , marginRight:10}} fontSize=''/>
                 Deal of The Day
-                <div style={{border:"2px solid red" , height:430 , width:"100%" , display:"flex" , gap:20}}>
-                    <div style={{height:"100% " , width:"40%" , padding:"20px"}}>
+                <div className='dod__container' style={{border:"2px solid red"  , width:"100%" , display:"flex" , gap:20}}>
+                    <div className='dod__img' style={{height:"100% " , padding:"20px"}}>
                         <div style={{height:"20px" , width:"30px" , backgroundColor:"red" , color:"white" , fontWeight:"bold" , fontSize:11, padding:2}}>
                             -7%
                         </div>
                         <img className='bike__img' style={{  position:"relative" }} src="https://demo74leotheme.b-cdn.net/prestashop/leo_matico_demo/24-home_default/hummingbird-printed-t-shirt.jpg" alt="" />
                    
                     </div>
-                    <div style={{width:"60%" , margin:"auto" , display:"flex" , flexDirection:"column" , gap:"20px"}}>
+                    <div className='dod__content' style={{width:"60%"  , display:"flex",justifyContent:"space-evenly" , flexDirection:"column" , gap:"20px" }}>
                         <div>
                             <StarIcon style={{color:'#FFD314'}} fontSize=''/>
                             <StarIcon style={{color:'#FFD314'}} fontSize=''/>

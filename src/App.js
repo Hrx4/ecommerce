@@ -5,7 +5,6 @@ import ItemList from './Components/ItemList'
 import DealOfDay from './Components/DealOfDay'
 import WeekDeals from './Components/WeekDeals'
 import TopSellingWeek from './Components/TopSellingWeek'
-import SubscribePart from './Components/SubscribePart'
 
 
 const App = () => {
@@ -18,7 +17,6 @@ const App = () => {
       <DealOfDay/>
       <WeekDeals/>
       <TopSellingWeek/>
-      <SubscribePart/>
       {/* <Footer/> */}
     </>
 

@@ -65,7 +65,7 @@ const WeekDeals = () => {
 
 
             <div className='card__box' style={{ width:"100%", marginTop:20 ,justifyContent:"space-evenly" }}>
-                <div className='card__item1'  style={{ height:180  ,  overflow: "hidden"}}>
+                <div className='card__item1'  style={{   overflow: "hidden"}}>
                 <div style={{zIndex:100,position:"absolute" , marginLeft:"40px", marginTop:50 }}>
                     <div style={{color:"white" , fontWeight:"bold"}}>
                     Garlic Butter <br />Baked Salmon
@@ -81,7 +81,7 @@ const WeekDeals = () => {
                 </div>
 
 
-                <div className='card__item1'  style={{ height:180 ,  overflow: "hidden"}}>
+                <div className='card__item1'  style={{   overflow: "hidden"}}>
                 <div style={{zIndex:100,position:"absolute" , marginLeft:"40px", marginTop:50 }}>
                 <div style={{color:"white" , fontWeight:"bold"}}>
                 Fresh Hass <br />Avocadoes
@@ -94,7 +94,7 @@ const WeekDeals = () => {
                 </div>
 
 
-                <div className='card__item1'  style={{ height:180 ,  overflow: "hidden"}}>
+                <div className='card__item1'  style={{   overflow: "hidden"}}>
                 <div style={{zIndex:100,position:"absolute" , marginLeft:"40px", marginTop:50 }}>
                 <div style={{color:"white" , fontWeight:"bold"}}>
                     Breakfast Cereals <br />are wholesome
@@ -108,7 +108,7 @@ const WeekDeals = () => {
                 </div>
 
 
-                <div className='card__item1'  style={{ height:180 ,  overflow: "hidden"}}>
+                <div className='card__item1'  style={{   overflow: "hidden"}}>
                 <div style={{zIndex:100,position:"absolute" , marginLeft:"40px", marginTop:50 }}>
                 <div style={{color:"white" , fontWeight:"bold"}}>
                 Fancy Smoked <br />Oysters
