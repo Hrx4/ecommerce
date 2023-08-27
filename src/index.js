@@ -7,6 +7,7 @@ import NavBar1 from './Components/NavBar1';
 import Footer from './Components/Footer';
 import { About } from './about/About';
 import SubscribePart from './Components/SubscribePart';
+import Products from './Components/Products';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,7 @@ root.render(
         <Routes>
           <Route exact path='/' element={<App/>}/>
           <Route exact path='/about' element={<About/>} />
+          <Route exact path='/products' element={<Products/>}/>
         </Routes>
         <SubscribePart/>
       <Footer/>

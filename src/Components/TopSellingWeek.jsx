@@ -3,6 +3,7 @@ import CircleIcon from '@mui/icons-material/Circle';
 import StarIcon from '@mui/icons-material/Star';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
 import ShoppingCartCheckoutIcon from '@mui/icons-material/ShoppingCartCheckout';
+import { Link } from 'react-router-dom';
 
 
 const TopSellingWeek = () => {
@@ -49,7 +50,7 @@ const TopSellingWeek = () => {
             {
                 CardData.map((item)=>(
                         <div style={{width:"90%" , height:"auto"}}>
-                            <div  style={{   padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' >
+                            <Link to={"/products"}  style={{color:"black" , padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' >
                                     <img className='tsw__img' style={{height:"80%" , width:"100%" , objectFit:"cover"}} src={item.img1} alt="" />
                                     <div>
                                         <div>
@@ -75,8 +76,8 @@ const TopSellingWeek = () => {
                                             Add To Cart
                                         </button>
                                     </div>
-                            </div>
-                            <div style={{  padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' >
+                            </Link>
+                            <Link to={"/products"} style={{ color:"black" ,padding:30 , display:"flex" , flexDirection:"column" , justifyContent:"space-between" }} className='card__item' >
                                     <img className='tsw__img' style={{height:"80%" , width:"100%" , objectFit:"cover"}} src={item.img2} alt="" />
                                     <div>
                                         <div>
@@ -102,7 +103,7 @@ const TopSellingWeek = () => {
                                             Add To Cart
                                         </button>
                                     </div>
-                            </div>
+                            </Link>
                         </div>
                     )
 
